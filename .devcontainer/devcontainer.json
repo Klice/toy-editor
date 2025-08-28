@@ -1,0 +1,17 @@
+{
+    "name": "Node.js React Component Development",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+}
